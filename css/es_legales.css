@@ -1,0 +1,137 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  .nav-inpsolutions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: white;
+  }
+  
+  a {
+    margin-left: 0%;
+  }
+
+  .logo-inp{
+    height: 100px;
+  }
+   .menu-inps {
+    display: flex;
+    gap: 40px;
+    margin-right: 20%;
+  }
+  
+  .menu-inps a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-inps a:hover {
+    color: #1f775a;
+  }
+
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+  }
+
+  .container img {
+    display: block;
+    margin: 40px auto; /* Espaciado arriba y abajo, centrado horizontal */
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2 {
+    color: #1f775a;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+  h3{
+    color: #1f775a;
+  }
+
+  p, li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  a{
+      text-decoration: none;
+      color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .descarga-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .descarga-contenedor p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #1f775a;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .boton-descarga {
+    background-color: #1f775a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+
+  .boton-descarga:hover {
+    background-color: #155f47;
+  }
